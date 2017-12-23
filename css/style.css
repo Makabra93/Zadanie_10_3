@@ -1,5 +1,18 @@
 * {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
-
-
+#carousel {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+#carousel ul {
+  width: 2000px;
+}
+#carousel li {
+  float: left;
+  list-style: none;
+}
